@@ -1,0 +1,47 @@
+{
+  "skill": "deepseek-china-search",
+  "source_local_commit": "23063a66459a30b51777377d916d29a5aa8e55c8",
+  "source_baseline_commit": "2022da7f8a60688cdcea210de046d629ab807c84",
+  "public_repository": "https://github.com/xingyun7842/xignyun-deepseek-china-search",
+  "reason": "Publish caller-configurable skill sources with an agent execution index and explicit version synchronization contract.",
+  "validation": "Python source syntax and package paths checked; no live service, credential or business operation was run.",
+  "portable_document_changes": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "97cbb6f69120fee1edf7b486c9cc399af49dcb4e2915f28eea20aa2216680033"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "1f9fa6fd2476476aaa8a249125942bca5c295e5f0b5fd0822ad650e7892b46dd"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "5032600b9fdea92132bd084f2c5462d48cc8fb41fdd6b019f47ce0d5648c562a"
+    },
+    {
+      "path": "references/api.md",
+      "sha256": "910ce11989927cfdcefd2b7d6189d722e9a34d3cec1bf0f83cb6ed0a02223dbf"
+    },
+    {
+      "path": "scripts/deepseek_search.py",
+      "sha256": "ae1a0cfe53382316b95787acb15065a68d18b834eb0bbf2546320f2bb6370084"
+    },
+    {
+      "path": "scripts/test_deepseek_search.py",
+      "sha256": "e89b8206bbaa9e7f4024bb2219a54ca1724b830e3eb38ed90ac58e390cf17b59"
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "97410cf4fd6d1027ec4577792d51e644747dacdf4008a9227b0408f5981fb972"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "sha256": "8420148e410d1bff92ff8e8ad69fd6d98546eaf4ccfb36d26f9b89df8bb403d3"
+    },
+    {
+      "path": "skill-publish.json",
+      "sha256": "424fbd9db8b490fc4e2265f34e3355eec616f7cbc3dff6ba860b96f62ca6d29f"
+    }
+  ]
+}

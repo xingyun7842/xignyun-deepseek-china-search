@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "skill": "deepseek-china-search",
+  "github": {
+    "owner": "xingyun7842",
+    "repository": "xignyun-deepseek-china-search",
+    "default_branch": "main",
+    "visibility": "public"
+  },
+  "sync": {
+    "trigger": "validated_skill_iteration",
+    "mode": "reviewed-source-export",
+    "require_independent_local_commit": true,
+    "require_change_reason": true,
+    "require_remote_readback": true,
+    "force_push": false
+  },
+  "agent_entry": "llms.txt",
+  "local_invocation_name": "deepseek-china-search"
+}

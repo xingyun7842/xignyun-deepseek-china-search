@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国互联网搜索 · DeepSeek"
+  short_description: "通过 DeepSeek 搜索发现中国互联网公开语料，并保留可核查的来源链接"
+  default_prompt: "使用 $deepseek-china-search 检索中国互联网公开资料，核对关键原文并附来源链接。"
